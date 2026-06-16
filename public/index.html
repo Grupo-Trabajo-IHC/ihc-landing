@@ -19,8 +19,50 @@
 
 <body>
 
-  <main id="contenido-principal">
+  <!-- ==================== HEADER / NAV ==================== -->
+  <header class="nav" role="banner">
+    <div class="container nav__inner">
+      <a href="/" class="nav__brand" aria-label="LexiPic - Ir al inicio">
+        <img src="assets/images/logo.png" alt="LexiPic Logo" class="nav__logo" width="64" height="64">
+      </a>
+      <input type="checkbox" id="menuToggle" class="nav__check" aria-hidden="true">
+      <label for="menuToggle" class="nav__hamburger" aria-label="Abrir menú de navegación" role="button">&#9776;</label>
+      <nav class="nav__menu" aria-label="Navegación principal">
+        <a href="#caracteristicas" class="nav__link">Funcionalidades</a>
+        <a href="#audiencias" class="nav__link">Pacientes y Cuidadores</a>
+        <a href="#precios" class="nav__link">Precios</a>
+        <button type="button" class="btn btn--outline" aria-label="Iniciar sesión en LexiPic">Iniciar Sesión</button>
+        <button type="button" class="btn btn--filled" aria-label="Registrarse en LexiPic">Regístrate</button>
+      </nav>
+    </div>
+  </header>
 
+  <main id="contenido-principal">
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="badge">
+            <span class="material-symbols-outlined badge__icon" aria-hidden="true">psychology</span>
+            Accesibilidad Cognitiva
+          </span>
+          <h1 id="hero-title" class="hero__title">LexiPic: Tu «traductor<br>visual» en tiempo real</h1>
+          <p class="hero__desc">Una aplicación móvil diseñada para ayudar a personas con afasia o daño cerebral
+            adquirido, convirtiendo textos complejos en secuencias de pictogramas interactivos apoyadas por texto
+            simplificado y audio.</p>
+          <div class="hero__actions">
+            <a href="#audiencias" class="btn btn--filled btn--lg">
+              Soy un Gestor de Cuidado
+              <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+            </a>
+            <a href="#audiencias" class="btn btn--outline btn--lg">Soy un Paciente</a>
+          </div>
+        </div>
+        <img src="assets/images/hero_lexipic_translation.png"
+          alt="Captura de pantalla de LexiPic mostrando la traducción de texto a pictogramas en tiempo real"
+          class="hero__img" width="550" height="380" loading="eager">
+      </div>
+    </section>
   </main>
 
 </body>
