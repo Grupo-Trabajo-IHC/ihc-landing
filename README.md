@@ -72,3 +72,7 @@ Para cumplir con las pautas del Challenge de reubicar este repositorio en una or
 3.  Desplazarse hasta el final de la pestaña `General` en la sección **Danger Zone**.
 4.  Hacer clic en **Transfer ownership**.
 5.  Ingresar el nombre de la organización creada y confirmar la transferencia.
+
+
+---
+*Última actualización: Junio de 2026 por el equipo de LexiPic.*
