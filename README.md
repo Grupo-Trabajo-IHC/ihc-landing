@@ -63,6 +63,15 @@ El proyecto está organizado de la siguiente manera:
 
 ---
 
+## 🛠️ Tecnologías Utilizadas
+
+- **HTML5**: Estructura de marcado semántica y accesible para lectores de pantalla.
+- **CSS3 (Vanilla)**: Diseño adaptable y animaciones sin necesidad de frameworks CSS externos.
+- **JavaScript (Vanilla)**: Implementación del menú responsive y la integración de síntesis de voz (Text-to-Speech).
+- **Google Fonts & Material Icons**: Tipografía e íconos interactivos premium.
+
+---
+
 ## 🚀 Instrucciones de Reubicación de Repositorio en GitHub (Organización)
 
 Para cumplir con las pautas del Challenge de reubicar este repositorio en una organización de GitHub:
